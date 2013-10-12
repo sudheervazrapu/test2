@@ -1,0 +1,39 @@
+<web-app>
+<servlet>
+	<servlet-name>MyServlet</servlet-name>
+	<servlet-class>project</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteServlet</servlet-name>
+	<servlet-class>deleteuser</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateServlet</servlet-name>
+	<servlet-class>updateuser</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>LoginServlet</servlet-name>
+	<servlet-class>login1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>MyServlet</servlet-name>
+	<url-pattern>/swific</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DeleteServlet</servlet-name>
+	<url-pattern>/delete_user</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>UpdateServlet</servlet-name>
+	<url-pattern>/update_user</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>LoginServlet</servlet-name>
+	<url-pattern>/servlet1</url-pattern>
+</servlet-mapping>
+
+	
+</web-app>
+
+	
