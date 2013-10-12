@@ -1,0 +1,5 @@
+Requirements:
+1.Ubuntu Desktop Edition(we can move to server edition for deployment)
+2.Tomcat 6
+3.MySql
+4.Java 6
